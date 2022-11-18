@@ -1,8 +1,10 @@
-import HTMLWebPackPlugin from 'html-webpack-plugin';
+const HTMLWebPackPlugin = require('html-webpack-plugin');
 
-export const plugins = [
-    new HTMLWebPackPlugin({
-        template: './src/index.html',
-        filename: 'index.html' // filename to use
-    })
-];
+module.exports = {
+    plugins: [
+        new HTMLWebPackPlugin({     // generates <script> tags inside html file
+            template: './src/index.html',   // location of html file
+            filename: 'index.html'          // filename to use
+        })
+    ]
+}
