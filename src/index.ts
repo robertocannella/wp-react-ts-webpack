@@ -1,2 +1,5 @@
-alert("hello!");
-console.log("teast");
+function log(str: string){
+    console.log(str);
+}
+
+log("Hello");
