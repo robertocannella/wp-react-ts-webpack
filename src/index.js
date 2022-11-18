@@ -1,2 +1,2 @@
-alert("hello");
+alert("hello!");
 console.log("teast");
