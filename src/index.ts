@@ -2,4 +2,8 @@ export function log(str: string){
     console.log(str);
 }
 
-log("Hello");
+
+class A {
+    greeting = "Hello, world!"
+}
+log(new A().greeting);
