@@ -1,12 +1,15 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
-import {UserSearch} from "./state/UserSearch";
+import {EventComponent} from "./events/EventComponent";
+
+
+
 
 const App = () => {
     return <div>
-        <UserSearch/>
-
-        A headless Wordpress site.</div>;
+        <h1> A headless Wordpress site.</h1>
+        <EventComponent/>
+       </div>;
 }
 
 
