@@ -1,8 +1,15 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
+import {EventComponent} from "./events/EventComponent";
+
+
+
 
 const App = () => {
-    return <div>A headless Wordpress site!</div>;
+    return <div>
+        <h1> A headless Wordpress site.</h1>
+        <EventComponent/>
+       </div>;
 }
 
 
