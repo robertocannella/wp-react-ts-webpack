@@ -2,11 +2,14 @@
     "compilerOptions": {
         "target": "ESNext",
         "module": "es6",
-        "strict": true, 
+        "strict": true,
         "noEmit": true,
         "isolatedModules": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
+        "jsx": "react"
     },
-    "include": ["./src/**/*"]
+    "include": [
+        "./src/**/*"
+    ]
 }
