@@ -1,11 +1,10 @@
 import React from "react";
-import Parent from "./props/Parent";
 import { createRoot } from 'react-dom/client';
-import {GuestList} from "./state/GuestList";
+import {UserSearch} from "./state/UserSearch";
 
 const App = () => {
     return <div>
-        <GuestList/>
+        <UserSearch/>
 
         A headless Wordpress site.</div>;
 }
