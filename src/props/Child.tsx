@@ -1,5 +1,9 @@
 import React from "react"
 
-export const Child = () => {
-    return <div>Child Component</div>
+interface ChildProps {
+    color: string;
+}
+
+export const Child = ({color}: ChildProps) => {
+    return <div>Child Component's color {color}</div>
 }
