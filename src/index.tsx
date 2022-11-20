@@ -1,14 +1,19 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
-import {EventComponent} from "./events/EventComponent";
+import {UserSearch} from "./refs/UserSearch";
 
 
+const users = [
+    {name: 'Sarah', 'age': 20 },
+    {name: 'Mike', 'age': 23 },
+    {name: 'Charlie', 'age': 32 },
+]
 
 
 const App = () => {
     return <div>
         <h1> A headless Wordpress site.</h1>
-        <EventComponent/>
+        <UserSearch />
        </div>;
 }
 
