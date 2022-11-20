@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
-import {UserSearch} from "./classes/UserSearch";
+import {UserSearch} from "./refs/UserSearch";
 
 
 const users = [
@@ -13,7 +13,7 @@ const users = [
 const App = () => {
     return <div>
         <h1> A headless Wordpress site.</h1>
-        <UserSearch  users={users}/>
+        <UserSearch />
        </div>;
 }
 
